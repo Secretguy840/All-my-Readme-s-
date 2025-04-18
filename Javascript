@@ -1,0 +1,6 @@
+const terminal = require('cyberterminal');
+
+terminal.boot({
+  theme: 'neon',
+  plugins: ['hacker-news', 'crypto-tracker']
+});
