@@ -1,0 +1,32 @@
+
+### 3. Interactive Documentation README
+```html
+<!-- README.md -->
+# <img src="logo.svg" width="40" height="40"> DataForge
+
+<div align="center">
+  <a href="#-try-it-live">Try Live</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-quick-example">Example</a> •
+  <a href="#%EF%B8%8F-advanced-usage">Advanced</a>
+</div>
+
+## 🚀 Try it Live
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/user/dataforge)
+
+## 🔥 Features
+- Real-time data streaming
+- Visual query builder
+- Automatic type inference
+- Collaborative editing
+
+## 📊 Quick Example
+```python
+from dataforge import DataFrame
+
+df = DataFrame.from_csv('data.csv')
+  .filter(lambda row: row['age'] > 25)
+  .group_by('department')
+  .agg({'salary': 'avg'})
+
+print(df.to_markdown())
