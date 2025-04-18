@@ -1,0 +1,12 @@
+
+### 2. Animated Terminal-Style README
+```markdown
+# █▀▀ █▀█ █▀▀ █▀ █▀   █▀▄▀█ ▄▀█ █▀▀ █▄▀
+# █▄▄ █▄█ █▄▄ ▄█ ▄█   █░▀░█ █▀█ █▄▄ █░█
+
+```bash
+# Install with brew
+brew install cyberterminal
+
+# Or with npm
+npm install -g cyberterminal
